@@ -17,3 +17,5 @@ end
 def long_planeteer_calls(array)
   puts array.find {|word| word.length > 4}
 end
+
+long_planeteer_calls(names)
