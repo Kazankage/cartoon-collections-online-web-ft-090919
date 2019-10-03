@@ -22,7 +22,7 @@ end
 
 snacks = ["crackers", "gouda", "thyme"]
 def find_the_cheese(array)
-  array.find {|word| word == "cheddar" or "gouda" or "camembert"}
+  array.find {|word| word == "cheddar"}
 end
 
 puts find_the_cheese(snacks)
