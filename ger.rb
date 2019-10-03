@@ -23,7 +23,7 @@ end
 
 snacks = ["crackers", "gouda", "thyme"]
 def find_the_cheese(array)
-  array.find {|word| word == "cheddar"}
+  array.find {|word| word == "gouda"}
 end
 binding.pry
 puts find_the_cheese(snacks)
