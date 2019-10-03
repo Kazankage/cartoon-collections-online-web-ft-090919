@@ -18,4 +18,4 @@ def long_planeteer_calls(array)
   array.any? {|word| word.length > 4 }
 end
 
-puts long_planeteer_calls(names)
+#puts long_planeteer_calls(names)
