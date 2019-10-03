@@ -9,7 +9,7 @@ end
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(array)
-  array.split.capitalize
+  array.split
 end
 
 summon_captain_planet(planeteer_calls)
