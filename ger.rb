@@ -25,5 +25,5 @@ snacks = ["crackers", "cheddar", "thyme"]
 def find_the_cheese(array)
   array.find {|word| word == "gouda" || word == "cheddar" || word == "camembert"}
 end
-binding.pry
+#binding.pry
 puts find_the_cheese(snacks)
