@@ -25,4 +25,4 @@ def find_the_cheese(array)
   array.find {|word| word == "cheddar"}
 end
 
-puts find_the_cheese(snacks)
+print find_the_cheese(snacks)
