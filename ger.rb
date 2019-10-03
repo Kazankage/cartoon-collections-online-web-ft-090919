@@ -19,3 +19,7 @@ def long_planeteer_calls(array)
 end
 
 #puts long_planeteer_calls(names)
+
+def find_the_cheese(array)
+  
+end
