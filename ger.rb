@@ -20,6 +20,9 @@ end
 
 #puts long_planeteer_calls(names)
 
+snacks = ["crackers", "gouda", "thyme"]
 def find_the_cheese(array)
-  
+  array.find {|word| word == "cheddar" or "gouda" or "camembert"}
 end
+
+puts find_the_cheese(snacks)
