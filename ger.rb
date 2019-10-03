@@ -1,3 +1,4 @@
+require 'pry'
 names = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
 def roll_call_dwarves(array)
@@ -24,5 +25,5 @@ snacks = ["crackers", "gouda", "thyme"]
 def find_the_cheese(array)
   array.find {|word| word == "cheddar"}
 end
-
-print find_the_cheese(snacks)
+binding.pry
+puts find_the_cheese(snacks)
